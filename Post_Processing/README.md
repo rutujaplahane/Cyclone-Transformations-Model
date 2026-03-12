@@ -27,29 +27,29 @@ The reconstruction pipeline consists of the following steps:
 
 3. **Separate physical variables**
 
-Channels corresponding to static depth information and forcing variables are removed to isolate the predicted oceanographic variables.
+   Channels corresponding to static depth information and forcing variables are removed to isolate the predicted oceanographic variables.
 
 4. **Reconstruct the depth dimension**
 
-The flattened channel dimension is reshaped back into a structured 5-dimensional format:
-(time, depth, latitude, longitude, variables)
+   The flattened channel dimension is reshaped back into a structured 5-dimensional format:
+   (time, depth, latitude, longitude, variables)
 
 
 5. **Inverse scaling**
 
-The model outputs are converted back to physical units using the global mean and standard deviation used during preprocessing.
+   The model outputs are converted back to physical units using the global mean and standard deviation used during preprocessing.
 
 6. **Add pre-cyclone mean state**
 
-The predicted anomalies are added to the **pre-cyclone mean ocean state** to recover the actual oceanographic conditions.
+   The predicted anomalies are added to the **pre-cyclone mean ocean state** to recover the actual oceanographic conditions.
 
 7. **Generate NetCDF outputs**
 
-The reconstructed datasets are saved as NetCDF files for visualization and scientific analysis.
+   The reconstructed datasets are saved as NetCDF files for visualization and scientific analysis.
 
 ## Output Files
 
-The reconstruction produces the following files for the test cyclone:
+   The reconstruction produces the following files for the test cyclone:
 
 | File | Description |
 |-----|-----|
