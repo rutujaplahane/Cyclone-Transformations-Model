@@ -54,7 +54,7 @@ The reconstruction pipeline consists of the following steps:
 | File | Description |
 |-----|-----|
 | `Yaas_Predicted_Actual.nc` | Reconstructed predicted ocean fields |
-| `Yaas_True_Actual.nc` | Reconstructed ground truth ocean fields |
+| `Yaas_True_Actual.nc` | Reconstructed actual ocean fields |
 | `Yaas_pre_mean.nc` | Pre-cyclone mean ocean state |
 
 Each dataset contains the following variables:
