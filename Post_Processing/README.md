@@ -12,8 +12,8 @@ The reconstruction pipeline consists of the following steps:
 
    The predicted and true outputs generated during model testing are loaded from NumPy arrays:
 
-   - `Y_pred.npy`
-   - `Y_true.npy`
+   - `Data/Output/Y_pred.npy`
+   - `Data/Output/Y_true.npy`
 
    These arrays contain flattened channel representations of multiple ocean variables across depth levels.
 
