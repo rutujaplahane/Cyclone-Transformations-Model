@@ -42,8 +42,7 @@ The training script loads the processed NumPy arrays, converts them into PyTorch
 
 To train the model:
 
-Model_Training.ipynb
-
+Model/Model_Training.ipynb
 
 ## Model Weights
 
